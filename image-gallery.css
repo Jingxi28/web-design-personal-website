@@ -1,0 +1,30 @@
+h2{
+    color: rgb(14, 214, 148);
+    text-shadow: 0cap;
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+div.gallery {
+    margin-left: 20px;
+    border: 2px solid rgb(190, 234, 219);
+    float: left;
+    width: 280px;
+    margin-bottom: 50px;
+}
+
+div.gallery:hover {
+    border: 2px solid rgb(41, 205, 150);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}

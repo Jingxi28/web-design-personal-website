@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="./navbar.css">
+</head>
+<body>
+    <!--this is navbar-->
+
+    <div class="navbar">
+        <div class="logo"><a href="#"><img src="https://dummyimage.com/100x59/eb3d3d/fff&text=logo" alt=""></a></div> 
+        <nav>
+           <ul>
+             <li><a href="./personalWebsite.html">HOME</a></li> 
+             <li class= "dropdown">
+                <a href="#about_us" class="dropbtn">ABOUT US</a>
+                <div class="dropdown-content">
+                    <a href="#">Our team</a>
+                    <a href="#">History</a>
+                </div>
+            </li>  
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+           </ul>
+        </nav>
+     </div>
+
+
+    <!--this is form-->
+    <div class="form-container">
+    <h1>Reservation Form</h1>
+	<form>
+		<label for="name">Full Name:</label>
+		<input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" >
+        <label for="phone">Phone:</label>
+        <input type="number" id="phone" name="phone" required>
+        <label for="date">Reservation Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Reservation Time:</label>
+        <input type="time" id="time" name="time" required>
+        <label for="person">How many person will you be with? </label>
+        <input type="text" id="person" name="person">
+		<label for="notes">Notes:</label>
+		<textarea id="notes" name="notes" placeholder="Your addtional information..."></textarea>
+        
+        <label><input type="checkbox" name="subscribe" >Subscribe to our newsletter</label>
+		<input type="submit" value="Submit">
+	</form>
+</div>
+
+</body>
+</html>
